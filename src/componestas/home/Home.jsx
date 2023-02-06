@@ -1,8 +1,9 @@
 import React from 'react';
 import './home.css'
 import imgPerfil from '../../assets/image/logo-circular-bamus.png'
-import paisaje from '../../assets/image/paisa.jpg'
+import foto from '../../assets/image/foto-integra.png'
 import Slide from '../slide/Slide';
+import SlideHome from '../slideHome/SlideHome';
 
 const Home = () => {
 
@@ -10,7 +11,8 @@ const Home = () => {
     return (
         <div className='home-container'>
             <figure className='container-baner'>
-                <img className='baner' src={paisaje} alt="" />
+                <SlideHome/>
+                <img className='baner' src={foto} alt="" />
                 <div className="container-logos-nombre">
                     <img className='img-perfil' src={imgPerfil} alt="" />
                     <p>Banda Orquesta Peruvians Band <br />(BOPERBAND)</p>

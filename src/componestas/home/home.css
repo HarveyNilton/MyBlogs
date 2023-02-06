@@ -1,18 +1,24 @@
 .container-baner {
 
-    max-width: 100%;
-    max-height: 450px;
+  
+    /*max-height: 450px;*/
     position: relative;
     z-index: 1;
-    overflow: hidden;
-    object-fit: contain;
-    
+
 
 }
 
 .baner {
-    width: 100%;
-    object-fit: contain;
+    position: absolute;
+    object-fit: cover;
+  
+    left: 0;
+    right: -100px;
+    bottom: 0;
+    width: 70%;
+  
+ 
+    margin: 0 auto;
 }
 
 .container-description {
@@ -47,7 +53,8 @@
 
 .container-logos-nombre p {
 
-    font-size: 5vmin;
+    font-weight: 400;
+    font-size: 4.5vmin;
     color: rgb(255, 255, 255);
     /*-webkit-text-stroke: 0.5px rgb(255, 255, 255);*/
 
