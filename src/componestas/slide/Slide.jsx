@@ -1,7 +1,7 @@
 import React from 'react';
 import './slide.css'
 
-import img1 from '../../assets/image/1.jpg'
+import img1 from '../../assets/image/1.png'
 import img2 from '../../assets/image/2.jpg'
 import img3 from '../../assets/image/3.jpg'
 import img4 from '../../assets/image/4.jpg'
@@ -14,14 +14,14 @@ const Slide = () => {
     return (
         <div className='container-general'>
 
-            <input type="radio" id='1' name='image-slide' hidden />
-            <input type="radio" id='2' name='image-slide' hidden />
-            <input type="radio" id='3' name='image-slide' hidden />
-            <input type="radio" id='4' name='image-slide' hidden />
-            <input type="radio" id='5' name='image-slide' hidden />
-            <input type="radio" id='6' name='image-slide' hidden />
-            <input type="radio" id='7' name='image-slide' hidden />
-            <input type="radio" id='8' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='1' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='2' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='3' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='4' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='5' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='6' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='7' name='image-slide' hidden />
+            <input className='input-slide' type="radio" id='8' name='image-slide' hidden />
             <h3 className='text-galery-of-photo'>NUESTROS INTEGRANTES</h3>
             <section className='slide'>
 

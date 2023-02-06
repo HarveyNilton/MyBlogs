@@ -24,7 +24,7 @@
     display: flex;
     transform: translate3d(0, 0, 0);
     transition: all 600ms;
-    animation-name: autoplay;
+    animation-name: autoplays;
     /*animation-duration: 6.5s;*/
     animation-duration: 20s;
     animation-direction: alternate;
@@ -120,85 +120,85 @@
     color: gray;
     font-weight: 500;
 }
-input[id='1']:checked~.slide {
+.input-slide[id='1']:checked~.slide {
     animation: none;
     transform: translate3d(0, 0, 0);
     transition: all 2s linear;
 }
 
-input[id='1']:checked~.pagination .pagination-item[htmlFor='1'] {
+.input-slide[id='1']:checked~.pagination .pagination-item[htmlFor='1'] {
     background: white;
 }
 
-input[id='2']:checked~.slide {
+.input-slide[id='2']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *1), 0, 0);
     transition: all 2s linear;
 }
 
-input[id='2']:checked~.pagination .pagination-item[htmlFor='2'] {
+.input-slide[id='2']:checked~.pagination .pagination-item[htmlFor='2'] {
     background: white;
 }
 
-input[id='3']:checked~.slide {
+.input-slide[id='3']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *2), 0, 0);
     transition: all 2s linear;
 }
 
-input[id='3']:checked~.pagination .pagination-item[htmlFor='3'] {
+.input-slide[id='3']:checked~.pagination .pagination-item[htmlFor='3'] {
     background: white;
 }
 
-input[id='4']:checked~.slide {
+.input-slide[id='4']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *3), 0, 0);
     transition: all 2s linear;
 }
 
-input[id='4']:checked~.pagination .pagination-item[htmlFor='4'] {
+.input-slide[id='4']:checked~.pagination .pagination-item[htmlFor='4'] {
     background: white;
 }
 
-input[id='5']:checked~.slide {
+.input-slide[id='5']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *4), 0, 0);
     transition: all 2s linear;
 }
 
-input[id='5']:checked~.pagination .pagination-item[htmlFor='5'] {
+.input-slide[id='5']:checked~.pagination .pagination-item[htmlFor='5'] {
     background: white;
 }
 
-input[id='6']:checked~.slide {
+.input-slide[id='6']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *5), 0, 0);
     transition: all 2s linear;
 }
 
 
-input[id='6']:checked~.pagination .pagination-item[htmlFor='6'] {
+.input-slide[id='6']:checked~.pagination .pagination-item[htmlFor='6'] {
     background: white;
 }
 
-input[id='7']:checked~.slide {
+.input-slide[id='7']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *6), 0, 0);
     transition: all 2s linear;
 }
 
-input[id='7']:checked~.pagination .pagination-item[htmlFor='7'] {
+.input-slide[id='7']:checked~.pagination .pagination-item[htmlFor='7'] {
     background: white;
 }
 
 
-input[id='8']:checked~.slide {
+.input-slide[id='8']:checked~.slide {
     animation: none;
     transform: translate3d(calc(-100% *7), 0, 0);
     transition: all 2s linear;
 }
 
-input[id='8']:checked~.pagination .pagination-item[htmlFor='8'] {
+.input-slide[id='8']:checked~.pagination .pagination-item[htmlFor='8'] {
     background: white;
 }
 
@@ -219,7 +219,7 @@ input[id='8']:checked~.pagination .pagination-item[htmlFor='8'] {
 } */
 
 
-@keyframes autoplay {
+@keyframes autoplays {
     12.5% {
         transform: translate3d(calc(-100% *0), 0, 0);
        
