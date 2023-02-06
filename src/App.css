@@ -1,0 +1,40 @@
+
+
+
+:root{
+  --background-header:rgb(19, 150, 221);
+  --color-textIntrum:rgb(82, 82, 82);
+  --background-menu: rgb(255, 255, 255) ;
+  --fill-colorIcon: rgb(82, 82, 82);
+  --color-textMenu:  rgb(82, 82, 82);
+
+}
+
+.App{
+  width: 100%;
+  margin-top: 16vmin;
+ 
+}
+ 
+.colores{
+  background: rgb(255, 255, 255);
+}
+
+.coloroter{
+  background: rgb(56, 56, 56);
+  --color-text: rgb(255, 255, 255);
+  --color-textIntrum:rgb(255, 255, 255);
+  --background-menu: rgb(56, 56, 56) ;
+  --fill-colorIcon: rgb(255, 255, 255) ;
+  --color-textMenu:  rgb(255, 255, 255);
+  --background-header:rgb(255, 255, 255);
+}
+
+@media(min-width: 600px){
+  .App{
+    transition: all 2s linear;
+    width: 75%;
+    margin:16vmin auto;
+  }
+}
+

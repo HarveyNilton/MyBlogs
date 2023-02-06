@@ -1,0 +1,143 @@
+.open-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(95, 95, 95, 0.418);
+    display: flex;
+    justify-content: flex-end;
+
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.close-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(95, 95, 95, 0.418);
+    display: flex;
+    justify-content: flex-end;
+    -webkit-animation-name: bounceOutRight;
+    animation-name: bounceOutRight;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes bounceOutRight {
+    20% {
+        opacity: 1;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0);
+    }
+}
+
+@keyframes bounceOutRight {
+    20% {
+        opacity: 1;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0);
+    }
+}
+
+.nav-float {
+    width: 50%;
+    height: 100vh;
+    background: var(--background-menu);
+}
+
+.icon-close-container {
+    height: 16vmin;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.container-item-nav-float {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 20px;
+    height: auto;
+    text-decoration: none;
+    font-size: 4vmin;
+}
+
+.item-icon-float {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+
+
+.img-icon-float {
+    width: 3.5vmin;
+    fill:var(--fill-colorIcon);
+    
+}
+
+.nav-item-float {
+    cursor: pointer;
+    text-decoration: none;
+    font-size:2.8vmin;
+    color: var(--color-textMenu);
+}
+
+.nav-item-float:hover{
+    color: rgb(243, 70, 70);
+    border-bottom: 2px solid rgb(243, 70, 70);
+    transition: all .5s linear;
+}

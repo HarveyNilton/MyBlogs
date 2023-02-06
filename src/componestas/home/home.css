@@ -1,0 +1,112 @@
+.container-baner {
+
+    max-width: 100%;
+    height: 80vmin;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.baner {
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-description {
+    height: 15vmin;
+    display: flex;
+
+}
+
+.container-img-perfil {
+    width: 35%;
+
+
+
+}
+
+.container-logos-nombre{
+    position: absolute;
+    top: 33vmin;
+    
+    padding: 20px;
+}
+
+.img-perfil {
+
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 50%;
+    background: white;
+    object-fit: cover;
+    padding: 2px;
+}
+
+.container-logos-nombre p {
+
+    font-size: 5vmin;
+    color: rgb(255, 255, 255);
+    /*-webkit-text-stroke: 0.5px rgb(255, 255, 255);*/
+
+}
+
+.description-personal {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    transition: all 2s linear;
+}
+
+.quien-soy {
+    max-width: 450px;
+    text-align: justify;
+    
+}
+
+.quien-soy h5{
+    font-size: 2.8vmin;
+    font-weight: 300;
+   color: var(--color-text);
+}
+
+.galeria-of-photo{
+    display: flex;
+    max-width: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*
+::-webkit-scrollbar {
+    display: none;
+    }*/
+
+.photo {
+    width: 50%;
+    padding: 20px;
+
+}
+
+@media(min-width: 1020px) and (max-width: 1300px){
+    .quien-soy{
+        max-width: 100%;
+    }
+    .galeria-of-photo{
+        max-width: 100%;
+    }
+  }
+
+  @media(min-width: 768px) and (max-width: 1019px){
+    .quien-soy{
+        max-width:700px;
+    }
+    .galeria-of-photo{
+        max-width: 700px;
+    }
+  }
+  

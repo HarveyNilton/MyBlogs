@@ -1,0 +1,30 @@
+
+.container{
+    width: 100vw;
+  height: 100vh;
+background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+/*
+span{
+
+    font-size: 6rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px aqua;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: ani 2s infinite;
+  }
+  @keyframes ani{
+    0%{
+      
+       
+    }
+    50%{
+   color: rgb(255, 0, 128);
+      text-shadow: 2px 2px 50px rgb(255, 0, 106);
+   }
+  
+  }*/

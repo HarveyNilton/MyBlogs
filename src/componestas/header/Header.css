@@ -1,0 +1,174 @@
+.header-container {
+    height: 16vmin;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    z-index: 5;
+
+    overflow: hidden;
+
+
+}
+
+.sub-container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+
+
+}
+
+.container-logo {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* -webkit-text-stroke: 1px rgb(255, 255, 255);*/
+    color: rgb(243, 70, 70);
+    font-size: 3.5vmin;
+    animation: animText 4s infinite;
+    font-family: monospace;
+}
+
+.nav-general {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+
+}
+
+.nav-container {
+    display: none;
+
+}
+
+.item-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+
+}
+
+.img-icon {
+    width: 8vmin;
+    fill: rgb(75, 74, 74);
+    cursor: pointer;
+    animation: animIcons 4s infinite;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    animation: animText 4s infinite;
+}
+
+.nav-item:hover {
+    transition: 0.5s step-start;
+    color: rgb(243, 70, 70);
+    border-bottom: 2px solid rgb(243, 70, 70);
+}
+
+
+.icon-menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    width: 30%;
+
+}
+
+
+.scroll-bg {
+    background: rgb(63,108,251);
+    background: radial-gradient(circle, rgba(63,108,251,1) 0%, rgba(66,249,52,1) 100%);
+
+    box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.425);
+}
+
+@media(max-width: 600px) {
+    .sub-container-header {
+
+        width: 100%;
+
+    }
+}
+
+@media(min-width:1050px) {
+    .nav-container {
+        display: block;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        text-decoration: none;
+
+        font-size: 1.2vmax;
+        animation: all 2s linear;
+
+
+    }
+
+    .img-icon {
+        width: 3vmin;
+        cursor: pointer;
+
+    }
+
+    .icon-max {
+        width: 4vmin;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .icon-menu {
+        width: 10%;
+    }
+}
+
+@keyframes animIcons {
+    0% {
+        fill: rgb(235, 26, 224);
+    }
+
+    50% {
+        fill: rgb(94, 31, 240);
+    }
+
+    100% {
+        fill: rgb(34, 243, 69);
+    }
+
+
+}
+
+@keyframes animText {
+    0% {
+        color: rgb(34, 243, 69);
+    }
+
+    50% {
+        color: rgb(94, 31, 240);
+    }
+
+    100% {
+        color: rgb(243, 16, 54);
+    }
+
+
+}
