@@ -78,8 +78,8 @@
 
 
 .scroll-bg {
-    background: rgb(63,108,251);
-    background: radial-gradient(circle, rgba(63,108,251,1) 0%, rgba(66,249,52,1) 100%);
+    background: rgb(33, 182, 252);
+   
 
     box-shadow: 2px 2px 8px rgba(128, 128, 128, 0.425);
 }
