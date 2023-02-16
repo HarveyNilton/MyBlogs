@@ -6,6 +6,7 @@ import NavMenu from './NavMenu';
 
 const Header = () => {
 
+  
 
     const body = document.body
 
@@ -85,5 +86,6 @@ const Header = () => {
         </div>
     );
 };
+
 
 export default Header;
